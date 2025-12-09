@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mhluri Novela Portfolio</title>
+  <link rel="icon" href="WhatsApp Image 2025-12-08 at 20.53.06_0f5cc645.jpg" type="image/x-icon">
+  <meta name="description" content="Portfolio of Mhluri Novela — IT Student specialising in Networking, Cybersecurity, Cloud, and Java Development.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- WhatsApp Floating Button -->
+  <a class="whatsapp-float" href="https://wa.me/+27798340894?text=Hello%20Mhluri,%20I%20saw%20your%20portfolio" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMessage">Message sent successfully!</span>
+  </div>
+  
+  <!-- Header -->
+  <header id="home">
+    <div class="container">
+      <div class="top-row">
+        <img src="WhatsApp Image 2025-12-08 at 20.53.06_0f5cc645.jpg" alt="Mhluri Novela" class="profile-img" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80'">
+        <div class="profile-info">
+          <h1>Mhluri Novela <span class="java-badge"><i class="fab fa-java"></i> Java Developer</span></h1>
+          <p>IT Student • Networking Specialist • Cybersecurity • Cloud Fundamentals • Java Developer</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact"><i class="fas fa-envelope"></i> Hire / Contact</a>
+            <a class="btn ghost" href="#contact" id="downloadCV"><i class="fas fa-download"></i> Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <button class="menu-toggle" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-links" id="navLinks">
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+      <a href="#certs"><i class="fas fa-certificate"></i> Certifications</a>
+      <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+      <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+      <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#services"><i class="fas fa-concierge-bell"></i> Services</a>
+      <a href="#testimonials"><i class="fas fa-comments"></i> Testimonials</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+    
+    <div class="top-actions">
+      <button id="toggleTheme" class="btn ghost"><i class="fas fa-moon"></i> Dark Mode</button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- About Section -->
+    <section id="about" class="visible">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+      <div class="card two-col">
+        <div>
+          <p>I am a motivated IT Student with practical knowledge in networking, cybersecurity fundamentals, cloud concepts, and Java development. I hold multiple Cisco learning badges and have hands-on experience using Cisco Packet Tracer. I enjoy solving technical problems, building stable networks, and developing efficient software solutions.</p>
+
+          <h3><i class="fas fa-bullseye"></i> Career Goals</h3>
+          <div class="card">
+            <p><strong>Short term:</strong> Gain experience as a Junior Java Developer or Network Technician focused on Cisco and cloud environments.</p>
+            <p><strong>Medium term:</strong> Earn CCNA/CCNP certifications and move into a Network Engineer or Software Developer role.</p>
+            <p><strong>Long term:</strong> Architect secure, scalable network and software solutions for enterprises.</p>
+          </div>
+
+          <h3 style="margin-top: 25px;"><i class="fas fa-address-card"></i> Contact Snapshot</h3>
+          <div class="card">
+            <p><strong><i class="fas fa-phone"></i> Phone:</strong> 065 075 7473 / 067 041 5478</p>
+            <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:Mhlurinovela801@gmail.com">Mhlurinovela801@gmail.com</a></p>
+            <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> Pretoria, South Africa</p>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h3><i class="fas fa-id-card"></i> Profile</h3>
+            <p><strong>Name:</strong> Mhluri Novela</p>
+            <p><strong>DOB:</strong> 16 September 1998</p>
+            <p><strong>Languages:</strong> Xitsonga, English, Sepedi, Tshivenda</p>
+            <p><strong>Driver's License:</strong> EC (Code 14)</p>
+          </div>
+
+          <div class="card" style="margin-top: 20px;">
+            <h3><i class="fas fa-link"></i> Quick Links</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/mhluri-novela-44896b29b/" class="social-link" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/" class="social-link" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/share/1BEaLwMwvb/?mibextid=wwXIfr" class="social-link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+      <div class="card">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2021</div>
+            <h3>Msengi Senior Secondary School</h3>
+            <p>Matric (National Senior Certificate)</p>
+            <p><strong>Subjects:</strong>Mathematics, Physical Sciences, Geography, Life Science</p>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2023-2025</div>
+            <h3>Vaal University of Technology</h3>
+            <p>Diploma in Information Technology</p>
+            <p><strong>Core Modules :</strong> Development Software, Web Development, System Software, Business Analysis</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certs">
+      <h2><i class="fas fa-certificate"></i> Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-header">
+            <h4>IT Essentials: PC Hardware And Software</h4>
+            <div class="cert-date">Jul 2023</div>
+          </div>
+          <p><strong>Cisco</strong> — Computer hardware, software, OS, networking, troubleshooting</p>
+        </div>
+        
+        <div class="cert-card">
+          <div class="cert-header">
+            <h4>Introduction to Cybersecurity</h4>
+            <div class="cert-date">Oct 2023</div>
+          </div>
+          <p><strong>Cisco</strong> — Cyber threats, vulnerabilities, threat detection and defense</p>
+        </div>
+        
+        <div class="cert-card">
+          <div class="cert-header">
+            <h4>Network Support and Security</h4>
+            <div class="cert-date">Dec 2025</div>
+          </div>
+          <p><strong>Cisco</strong> — Documentation, Support, Endpoint Devices, Help Desk and Network Troubleshooting</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-header">
+            <h4>CCNAv7: Introduction to Networks</h4>
+            <div class="cert-date">Nov 2023</div>
+          </div>
+          <p><strong>Cisco</strong> — IP addressing, switches, routers, end devices configuration</p>
+        </div>
+        
+        <div class="cert-card">
+          <div class="cert-header">
+            <h4>CCNAv7: Switching, Routing And Wireless Essentials</h4>
+            <div class="cert-date">Jul 2024</div>
+          </div>
+          <p><strong>Cisco</strong> — Configure VLANs, Inter-VLAN routing, Spanning Tree Protocol, Basic Troubleshooting IPv4/IPv6</p>
+        </div>
+          
+        <div class="cert-card">
+          <div class="cert-header">
+            <h4>Network Technician Career Path</h4>
+            <div class="cert-date">Dec 2025</div>
+          </div>
+          <p><strong>Cisco</strong> — Networking fundamentals, device communication, troubleshooting</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2><i class="fas fa-cogs"></i> Skills</h2>
+      <div class="card">
+        <h3>Technical Skills</h3>
+        <div class="skills-list">
+          <span class="skill">Network Configuration</span>
+          <span class="skill">IP Addressing & Subnetting</span>
+          <span class="skill">Cisco Packet Tracer</span>
+          <span class="skill">Java Development</span>
+          <span class="skill">Troubleshooting</span>
+          <span class="skill">Cybersecurity Basics</span>
+          <span class="skill">Cloud Fundamentals (AWS)</span>
+          <span class="skill">HTML / CSS / JavaScript</span>
+          <span class="skill">Microsoft Office Suite</span>
+          <span class="skill">System Software</span>
+          <span class="skill">Web Development</span>
+        </div>
+        
+        <h3 style="margin-top: 25px;">Professional Skills</h3>
+        <div class="skills-list">
+          <span class="skill">Problem Solving</span>
+          <span class="skill">Communication</span>
+          <span class="skill">Teamwork</span>
+          <span class="skill">Time Management</span>
+          <span class="skill">Leadership</span>
+          <span class="skill">Attention to Detail</span>
+          <span class="skill">Adaptability</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <div class="project-img placeholder">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <div class="meta">
+            <h4>Network Configuration Lab</h4>
+            <p>Designed VLANs, routing and tested connectivity using Cisco Packet Tracer.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Cisco</span>
+              <span class="tech-tag">Packet Tracer</span>
+              <span class="tech-tag">Networking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-img placeholder">
+            <i class="fab fa-java"></i>
+          </div>
+          <div class="meta">
+            <h4>Java Inventory System</h4>
+            <p>Inventory management application built with Java and MySQL database.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">OOP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-img placeholder">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="meta">
+            <h4>Small Business Cloud Setup</h4>
+            <p>Architected a basic AWS deployment model for a small web application.</p>
+            <div class="project-tech">
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">Cloud</span>
+              <span class="tech-tag">Networking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-img placeholder">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="meta">
+            <h4>Cybersecurity Threat Simulation</h4>
+            <p>Simulated basic attack vectors and implemented defensive controls.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Security</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Networking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience">
+      <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+      <div class="card">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2023 - 2024</div>
+            <h3>IT Support Intern</h3>
+            <p>Vaal University of Technology IT Department</p>
+            <ul style="padding-left: 20px; margin-top: 10px;">
+              <li>Provided help desk support to students and staff</li>
+              <li>Assisted in network monitoring and troubleshooting</li>
+              <li>Participated in software deployment and updates</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2><i class="fas fa-concierge-bell"></i> Services I Offer</h2>
+      <div class="services-grid">
+        <div class="service">
+          <div class="service-icon">
+            <i class="fab fa-java"></i>
+          </div>
+          <h4>Java Development</h4>
+          <p>Custom Java application development, maintenance, and optimization for business needs.</p>
+        </div>
+        
+        <div class="service">
+          <div class="service-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h4>Network Setup & Support</h4>
+          <p>Design and implement small office networks, VLANs, routing, and troubleshooting.</p>
+        </div>
+        
+        <div class="service">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h4>Cybersecurity Basics</h4>
+          <p>Vulnerability identification, basic hardening steps, and security awareness training.</p>
+        </div>
+        
+        <div class="service">
+          <div class="service-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h4>Cloud Setup</h4>
+          <p>Architecture diagrams and simple AWS/cloud deployment guidance for small businesses.</p>
+        </div>
+        
+        <div class="service">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h4>Web Development</h4>
+          <p>Building responsive websites and web applications using modern technologies.</p>
+        </div>
+        
+        <div class="service">
+          <div class="service-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h4>IT Support</h4>
+          <p>Remote and on-site troubleshooting, end-user support, system maintenance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <h2><i class="fas fa-comments"></i> Testimonials</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p class="testimonial-text">"Mhluri demonstrated exceptional technical skills during his internship. His understanding of networking concepts and problem-solving abilities were impressive."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" alt="Godfrey" class="author-img" onerror="this.src='https://ui-avatars.com/api/?name=Godfrey&background=2980b9&color=fff'">
+            <div>
+              <h4>Godfrey</h4>
+              <p>Lecturer, Vaal University of Technology</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <p class="testimonial-text">"Reliable and responsible with a great attitude toward problem solving. Mhluri shows strong potential in the IT field."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" alt="Mr Novela" class="author-img" onerror="this.src='https://ui-avatars.com/api/?name=Mr+Novela&background=3498db&color=fff'">
+            <div>
+              <h4>Mr Novela</h4>
+              <p>Teacher, Msengi Senior Secondary School</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+      <div class="contact-container">
+        <div>
+          <h3>Get In Touch</h3>
+          <p>I'm currently open to new opportunities in software development, networking, or cloud computing. Feel free to reach out if you have a project in mind or just want to connect!</p>
+          
+          <div class="card" style="margin-top: 20px;">
+            <p><strong><i class="fas fa-phone"></i> Phone:</strong> 065 075 7473 / 067 041 5478</p>
+            <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:Mhlurinovela801@gmail.com">Mhlurinovela801@gmail.com</a></p>
+            <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> Pretoria, South Africa</p>
+          </div>
+          
+          <div class="social-links" style="margin-top: 20px;">
+            <a href="https://www.linkedin.com/in/mhluri-novela-44896b29b/" class="social-link" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/" class="social-link" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/share/1BEaLwMwvb/?mibextid=wwXIfr" class="social-link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <h3>Send Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+            
+            <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+              <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+              <button type="button" class="btn btn-secondary" id="downloadCVBtn"><i class="fas fa-download"></i> Download CV</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div style="color: rgba(255,255,255,.95);">
+        © 2025 <strong>Mhluri Novela</strong> — IT Graduate & Java Developer
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; justify-content: center;">
+        <a href="#" class="btn ghost">Privacy</a>
+        <a href="#" class="btn ghost">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
